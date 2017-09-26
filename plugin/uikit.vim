@@ -3,4 +3,4 @@
 " Version:    0.1.0
 
 " Enable UIKit user completion for html files
-au FileType html,htmldjango setlocal omnifunc=uikit#CompleteUK
+au FileType html,htmldjango setlocal completefunc=uikit#CompleteUK
